@@ -142,7 +142,9 @@ function App() {
       setOrderFinished(true);
     }
   };
-  return /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement(SimplePopup, {
+  return /*#__PURE__*/react.createElement("div", {
+    className: "bg-white"
+  }, /*#__PURE__*/react.createElement(SimplePopup, {
     handlers: popUpHandlers,
     visible: !orderFinished
   }), /*#__PURE__*/react.createElement("div", {
