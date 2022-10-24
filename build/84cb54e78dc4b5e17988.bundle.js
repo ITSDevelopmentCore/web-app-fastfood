@@ -166,6 +166,7 @@ function App() {
 
 render();
 window.Telegram.WebApp.themeParams.bg_color = "#FFFFFF";
+window.Telegram.WebApp.themeParams.secondary_bg_color = "#FFFFFF";
 function render() {
   const root = client/* createRoot */.s(document.getElementById('root'));
   const element = /*#__PURE__*/react.createElement(App, null);

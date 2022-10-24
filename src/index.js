@@ -7,6 +7,7 @@ import style from "./css/index.scss"
 render();
 
 window.Telegram.WebApp.themeParams.bg_color = "#FFFFFF";
+window.Telegram.WebApp.themeParams.secondary_bg_color = "#FFFFFF";
 
 function render()
 {
