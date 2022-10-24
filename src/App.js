@@ -16,7 +16,7 @@ export default function App() {
     }
 
     return (
-        <div className="bg-white">
+        <div>
 
             <SimplePopup
                 handlers={popUpHandlers}
