@@ -156,7 +156,7 @@ function App() {
     className: "p-3 h-12 text-sm mx-2 mt-4 rounded-xl border-2 border-gray-900"
   }, "\u041D\u0430\u0447\u0438\u0441\u043B\u0435\u043D\u043E \u0431\u043E\u043D\u0443\u0441\u043E\u0432 : ", /*#__PURE__*/react.createElement("strong", null, "10")), /*#__PURE__*/react.createElement("div", {
     onClick: () => setOrderFinished(false),
-    className: "mx-2 mt-4 h-12 flex justify-center items-center bg-gradient-to-r from-gray-700 to-gray-900 font-semibold text-sm text-white rounded-xl"
+    className: "mb-5 mx-2 mt-4 h-12 flex justify-center items-center bg-gradient-to-r from-gray-700 to-gray-900 font-semibold text-sm text-white rounded-xl"
   }, "\u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C"));
 }
 ;// CONCATENATED MODULE: ./src/index.js
