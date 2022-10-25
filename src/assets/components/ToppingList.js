@@ -21,9 +21,9 @@ function TopingItem(props)
 {
     return (
         <div onClick={props.handler} className={props.enabled?
-            "p-3 w-28 h-28 flex flex-col justify-between items-center border-2 rounded-xl border-neutral-900":
-        "p-3 w-28 h-28 flex flex-col justify-between items-center border-2 rounded-xl border-neutral-900/50"}>
-            <img className={props.dimensions} src={props.image}/>
+            "p-3 w-24 h-28 flex flex-col justify-between items-center border-2 rounded-xl border-neutral-900":
+        "p-3 w-24 h-28 flex flex-col justify-between items-center border-2 rounded-xl border-neutral-900/50"}>
+            <img className={props.dimensions+" "} src={props.image}/>
             <p className="text-sm font-semibold">{props.title}</p>
         </div>
     )

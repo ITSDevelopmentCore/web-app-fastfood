@@ -57,9 +57,9 @@ function ToppingList() {
 function TopingItem(props) {
   return /*#__PURE__*/react.createElement("div", {
     onClick: props.handler,
-    className: props.enabled ? "p-3 w-28 h-28 flex flex-col justify-between items-center border-2 rounded-xl border-neutral-900" : "p-3 w-28 h-28 flex flex-col justify-between items-center border-2 rounded-xl border-neutral-900/50"
+    className: props.enabled ? "p-3 w-24 h-28 flex flex-col justify-between items-center border-2 rounded-xl border-neutral-900" : "p-3 w-24 h-28 flex flex-col justify-between items-center border-2 rounded-xl border-neutral-900/50"
   }, /*#__PURE__*/react.createElement("img", {
-    className: props.dimensions,
+    className: props.dimensions + " ",
     src: props.image
   }), /*#__PURE__*/react.createElement("p", {
     className: "text-sm font-semibold"
